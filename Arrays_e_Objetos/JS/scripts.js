@@ -107,8 +107,26 @@ console.log(Object.keys(obj));
 console.log(Object.entries(obj));
 
 
+console.log("9- #######################################");
 
 // 9 - Mutação
 
 
+const a = {
+    name: "Johnny"
+}
+
+b = a;
+
+console.log(a===b)
+
+b.age=30;
+
+console.log(a);
+
+delete b.age;
+
+console.log(a);
+
+// 10 Loop em arrays
 
