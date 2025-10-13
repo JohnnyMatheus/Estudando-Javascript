@@ -56,3 +56,53 @@ const person = {
 console.log(person.name);
 console.log(person.name.length);
 console.log(typeof person);
+
+
+// 6 - criando e deletando propriedades
+
+const carro ={
+    motor: 2.0,
+    marca:"VW",
+    modelo: "Tiguan",
+    km: 2000,
+
+}
+
+console.log(carro);
+
+carro.portas =5;
+
+console.log(carro);
+
+//deletando 
+
+delete carro.motor;
+
+console.log(carro)
+
+
+console.log("#######################################");
+// 7 - mais sobre objetos
+
+const obj ={
+    a: 'teste',
+    b: true
+}
+console.log(obj instanceof Object);
+
+
+const obj2 = {
+    c:[]
+
+}
+Object.assign(obj2,obj);
+
+console.log(obj2);
+
+console.log("8- #######################################");
+// 8 -  Conhecendo melhor os objetos
+
+console.log(Object.keys(obj));
+
+console.log(Object.entries(obj));
+
