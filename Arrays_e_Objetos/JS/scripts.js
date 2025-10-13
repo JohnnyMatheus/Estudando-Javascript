@@ -81,7 +81,7 @@ delete carro.motor;
 console.log(carro)
 
 
-console.log("#######################################");
+console.log("7 -#######################################");
 // 7 - mais sobre objetos
 
 const obj ={
@@ -105,5 +105,10 @@ console.log("8- #######################################");
 console.log(Object.keys(obj));
 
 console.log(Object.entries(obj));
+
+
+
+// 9 - Mutação
+
 
 
