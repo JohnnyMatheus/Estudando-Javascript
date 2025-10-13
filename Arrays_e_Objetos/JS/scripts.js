@@ -44,3 +44,15 @@ console.log(typeof text.toUpperCase);
 
 console.log(text.indexOf("C"))
 
+// 5 - Objetos
+
+const person = {
+    name: "Johnny",
+    age: 30,
+    altura: 1.85
+
+}
+
+console.log(person.name);
+console.log(person.name.length);
+console.log(typeof person);
