@@ -10,17 +10,17 @@
 // 5 - Guarde o retorno da função executada em uma variável.
 // 6 - Log a frase final da função executada no console.
 
-function livro(nome,ano,autor){
+function livro(nome, ano, autor){
+
     const transformar = nome.toUpperCase();
+
     const calc = 2050 - ano;
     const frase = nome + ' por ' + autor;
     return{
-        transformar,
+       transformar,
         calc,
         frase
-    }
-
+    };
 }
 
-teste = livro('O Senhor dos Anéis', 1954, 'J. R. R. Tolkien')
-console.log(teste)
+const livros = console.log(livro('O Senhor dos Anéis', 1954, 'J. R. R. Tolkien'));
