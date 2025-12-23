@@ -24,3 +24,13 @@ function livro(nome, ano, autor){
 }
 
 const livroRetorno = console.log(livro('O Senhor dos Anéis', 1954, 'J. R. R. Tolkien'));
+
+//Código reduzido
+function livro2(nome, ano, autor){
+    return{
+        nome: nome.toUpperCase(),
+        ano: 2050 - ano,
+        frase: nome + ' por' + autor
+    };
+}
+const livroRetorno2 = console.log(livro2('O Senhor dos Anéis', 1954, 'J. R. R. Tolkien'));
