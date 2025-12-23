@@ -39,3 +39,5 @@ console.log(autor.toUpperCase())
 
 const decimal = 2.99;
 console.log(decimal.toFixed()) //retorna uma string
+
+console.log(Number(decimal.toFixed().length))
