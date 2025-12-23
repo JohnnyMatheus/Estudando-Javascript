@@ -23,4 +23,4 @@ function livro(nome, ano, autor){
     };
 }
 
-const livros = console.log(livro('O Senhor dos Anéis', 1954, 'J. R. R. Tolkien'));
+const livroRetorno = console.log(livro('O Senhor dos Anéis', 1954, 'J. R. R. Tolkien'));
